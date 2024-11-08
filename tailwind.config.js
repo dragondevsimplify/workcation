@@ -9,7 +9,8 @@ module.exports = {
         routeNameActivating: '#2f3748',
       },
       colors: {
-        'indigo-500': '#667eea'
+        'indigo-500': '#667eea',
+        'gray-100': '#f7fafc'
       },
     },
   },
