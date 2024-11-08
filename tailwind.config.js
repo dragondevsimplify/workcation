@@ -10,7 +10,9 @@ module.exports = {
       },
       colors: {
         'indigo-500': '#667eea',
-        'gray-100': '#f7fafc'
+        'gray-100': '#f7fafc',
+        'gray-900': '#1a202c',
+        'gray-600': '#718096',
       },
     },
   },
