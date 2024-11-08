@@ -6,8 +6,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        routeNameActivating: '#2f3748'
-      }
+        routeNameActivating: '#2f3748',
+      },
+      colors: {
+        'indigo-500': '#667eea'
+      },
     },
   },
   plugins: [],
