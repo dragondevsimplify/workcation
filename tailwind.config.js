@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        routeNameActivating: '#2f3748'
+      }
+    },
   },
   plugins: [],
 }

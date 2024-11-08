@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './destination-list.component.html',
-  styleUrl: './destination-list.component.scss'
 })
 export class DestinationListComponent {
 
