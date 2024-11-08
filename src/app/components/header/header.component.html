@@ -41,7 +41,7 @@
       </ng-template>
     </button>
   </div>
-  <div class="pt-2 pb-4 md:pt-0 md:pb-0">
+  <div *ngIf="showVerticalMenu" class="pt-2 pb-4 md:pt-0 md:pb-0">
     <nav
       class="flex flex-col md:flex-row md:items-center font-semibold text-white px-2 pb-4 md:pb-0 border-b border-b-[#2f3748] md:border-none"
     >
@@ -54,7 +54,7 @@
         >List your property</a
       >
       <a
-        class="rounded px-2 py-1 mt-1 md:mt-0"
+        class="rounded px-2 py-1 mt-1 md:mt-0 md:ml-2"
         [ngClass]="{
           'bg-routeNameActivating': routeNameActivating === 'trips'
         }"
@@ -62,7 +62,7 @@
         >Trips</a
       >
       <a
-        class="rounded px-2 py-1 mt-1 md:mt-0"
+        class="rounded px-2 py-1 mt-1 md:mt-0 md:ml-2"
         [ngClass]="{
           'bg-routeNameActivating': routeNameActivating === 'messages'
         }"
@@ -70,12 +70,12 @@
         >Messages</a
       >
     </nav>
-    <div class="md:hidden">
-      <div>
-        <img src="" alt="" />
-        <span></span>
+    <div class="px-4 py-5">
+      <div class="flex items-center">
+        <img class="w-8 h-8 border-2 border-gray-600 rounded-full" src="https://avatar.iran.liara.run/public/44" alt="Avatar" />
+        <span class="ml-3 font-semibold text-white">Jane Doe</span>
       </div>
-      <nav>
+      <nav class="md:hidden">
         <a href="">Account settings</a>
         <a href="">Support</a>
         <a href="">Sign out</a>
