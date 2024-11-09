@@ -4,7 +4,7 @@
     [src]="info.imageUrl"
     alt="Destination image"
   />
-  <div class="p-4 px-6 pt-4 pb-0">
+  <div class="p-4 md:pt-4 px-6">
     <h5 class="text-gray-900 text-lg font-semibold">{{ info.name }}</h5>
     <div class="text-gray-600 text-base">
       <span>${{ info.price }}</span>
@@ -12,7 +12,7 @@
       <span>{{ info.status }}</span>
     </div>
     <a
-      class="block no-underline text-indigo-500 text-sm mt-2 font-semibold md:mt-5"
+      class="block no-underline text-indigo-500 text-sm mt-2 font-semibold md:mt-5 hover:opacity-80"
       href="#"
       >Explore {{ info.propertyQuantity }} properties</a
     >

@@ -51,7 +51,7 @@
         class="flex flex-col md:flex-row md:items-center font-semibold text-white px-2 pb-4 md:pb-0 border-b border-b-[#2f3748] md:border-none"
       >
         <a
-          class="rounded px-2 py-1"
+          class="cursor-pointer rounded px-2 py-1 hover:bg-routeNameActivating"
           [ngClass]="{
             'bg-routeNameActivating': routeNameActivating === 'properties'
           }"
@@ -59,7 +59,7 @@
           >List your property</a
         >
         <a
-          class="rounded px-2 py-1 mt-1 md:mt-0 md:ml-2"
+          class="cursor-pointer rounded px-2 py-1 hover:bg-routeNameActivating mt-1 md:mt-0 md:ml-2"
           [ngClass]="{
             'bg-routeNameActivating': routeNameActivating === 'trips'
           }"
@@ -67,7 +67,7 @@
           >Trips</a
         >
         <a
-          class="rounded px-2 py-1 mt-1 md:mt-0 md:ml-2"
+          class="cursor-pointer rounded px-2 py-1 hover:bg-routeNameActivating mt-1 md:mt-0 md:ml-2"
           [ngClass]="{
             'bg-routeNameActivating': routeNameActivating === 'messages'
           }"
