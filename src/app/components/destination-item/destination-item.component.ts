@@ -7,7 +7,7 @@ import { DestinationItem } from '../../models';
   imports: [],
   templateUrl: './destination-item.component.html',
   host: {
-    'class': 'mt-6 md:w-1/2 md:px-4 xl:w-1/3',
+    'class': 'mt-6 w-full lg:w-1/2 lg:px-4 xl:w-1/3',
   }
 })
 export class DestinationItemComponent {

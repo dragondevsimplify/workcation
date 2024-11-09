@@ -1,10 +1,10 @@
-<li class="sm:flex rounded-lg shadow-lg bg-white overflow-hidden">
+<li class="rounded-lg shadow-lg bg-white overflow-hidden md:flex">
   <img
-    class="block w-full h-60 sm:h-full sm:w-32 object-cover object-center"
+    class="block w-full h-60 object-cover object-center md:h-full md:w-32"
     [src]="info.imageUrl"
     alt="Destination image"
   />
-  <div class="p-4 sm:px-6 sm:pt-4 sm:pb-0">
+  <div class="p-4 px-6 pt-4 pb-0">
     <h5 class="text-gray-900 text-lg font-semibold">{{ info.name }}</h5>
     <div class="text-gray-600 text-base">
       <span>${{ info.price }}</span>
@@ -12,7 +12,7 @@
       <span>{{ info.status }}</span>
     </div>
     <a
-      class="block no-underline text-indigo-500 text-sm mt-2 font-semibold sm:mt-5"
+      class="block no-underline text-indigo-500 text-sm mt-2 font-semibold md:mt-5"
       href="#"
       >Explore {{ info.propertyQuantity }} properties</a
     >
